@@ -16,9 +16,9 @@ SQLite database interactions via the SQLManager.
 from pathlib import Path
 from typing import Dict, List, Optional
 
-from esm.base.data_table import DataTable
-from esm.base.index import Index
-from esm.base.set_table import SetTable
+from esm.backend.data_table import DataTable
+from esm.backend.index import Index
+from esm.backend.set_table import SetTable
 from esm.log_exc import exceptions as exc
 from esm.log_exc.logger import Logger
 from esm.constants import Constants

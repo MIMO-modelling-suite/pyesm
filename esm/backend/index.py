@@ -18,9 +18,9 @@ from typing import Dict, List, Optional, Type
 import pandas as pd
 
 from esm.constants import Constants
-from esm.base.data_table import DataTable
-from esm.base.set_table import SetTable
-from esm.base.variable import Variable
+from esm.backend.data_table import DataTable
+from esm.backend.set_table import SetTable
+from esm.backend.variable import Variable
 from esm.log_exc import exceptions as exc
 from esm.log_exc.logger import Logger
 from esm.support import util

@@ -19,11 +19,11 @@ import numpy as np
 import pandas as pd
 import cvxpy as cp
 
-from esm.base import problem
-from esm.base.data_table import DataTable
-from esm.base.database import Database
-from esm.base.index import Index, Variable
-from esm.base.problem import Problem
+from esm.backend import problem
+from esm.backend.data_table import DataTable
+from esm.backend.database import Database
+from esm.backend.index import Index, Variable
+from esm.backend.problem import Problem
 from esm.log_exc import exceptions as exc
 from esm.log_exc.logger import Logger
 from esm.constants import Constants

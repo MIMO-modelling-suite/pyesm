@@ -16,7 +16,7 @@ Package dependancies:
 """
 
 from esm.support.util import create_model_dir
-from esm.base.model import Model
+from esm.backend.model import Model
 
 __authors__ = " 'Matteo V. Rocco', "
 __version__ = "0.0.1"

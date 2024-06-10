@@ -33,7 +33,7 @@ from esm.log_exc.logger import Logger
 from esm.support.dotdict import DotDict
 from esm.support.file_manager import FileManager
 from esm.support.pbi_manager import PBIManager
-from esm.base.core import Core
+from esm.backend.core import Core
 
 
 class Model:

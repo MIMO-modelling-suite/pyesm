@@ -34,7 +34,7 @@ from esm.log_exc.logger import Logger
 from esm.support import util
 from esm.support.file_manager import FileManager
 from esm.support.dotdict import DotDict
-from esm.base.index import Index, Variable
+from esm.backend.index import Index, Variable
 
 
 class Problem:
